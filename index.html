@@ -8,13 +8,18 @@
     <link rel="shortcut icon" href="img/header_logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
     
         
     <header class="header">
-        <nav class="nav">
+        <div class="container">
+            <nav class="nav">
             <a href="#!"><img src="img/header_logo.svg" alt="logo" class="header__logo"></a>
+            <div class="nav__menu">
+                <span class="nav__line"></span>
+            </div>
             <ul class="header__list">
                 <li class="header__item">
                     <a href="#!" class="header__link">Home</a>
@@ -37,6 +42,8 @@
                 </form>
             </ul>
         </nav>
+        </div>
+        
         <section class="panel">
             <img src="img/header/header_panel.png" alt="panel" class="panel__img">
             <div class="panel__content">

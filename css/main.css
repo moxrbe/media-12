@@ -58,9 +58,7 @@ ul{
     justify-content: space-between;
 }
 
-.header__logo{
-    margin-left: 49px;
-}
+
 
 
 .header__list{
@@ -150,6 +148,8 @@ ul{
    align-items: center;
  }
 
+
+
  .panel__title{
    color: var(--text);
    font-family: var(--font_R);
@@ -179,7 +179,10 @@ ul{
 
  .panel__img{
    z-index: 11;
+   width: 100%;
  }
+
+ 
 
 
  /* panel end */
@@ -333,6 +336,10 @@ ul{
   margin-top: 90px;
   border-radius: 35px;
   margin-bottom: 110px;
+}
+
+.light__img{
+  width: 100%;
 }
 /* lights and */
 
