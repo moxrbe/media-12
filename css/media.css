@@ -15,11 +15,13 @@
     }
 
     .panel__title{
-        max-width: 500px;
+        max-width: 100%;
     }
 
     .panel__txt{
         margin-bottom: 0;
+        width: 100%;
+        max-width: none;
     }
 
     .panel__img{
@@ -63,15 +65,17 @@
 
 
 }
-/* @media (max-width: 1140px) {} */
-@media (max-width: 1024px) {
-    
-    
-   
+@media (max-width: 1140px) {
     .price__cards{
         flex-direction: column;
     row-gap: 30px;
     }
+}
+@media (max-width: 1024px) {
+    
+    
+   
+
 
     
 
