@@ -1,9 +1,32 @@
 /* @media (max-width: 1440px) {} */
 /* @media (max-width: 1366px) {} */
 /* @media (max-width: 1320px) {} */
-/* @media (max-width: 1290px) {} */
-/* @media (max-width: 1140px) {} */
-@media (max-width: 1024px) {
+@media (max-width: 1290px) {
+    .panel__content{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+
+    .panel{
+        flex-direction: column-reverse;
+        margin-top: 100px;
+    }
+
+    .panel__title{
+        max-width: 500px;
+    }
+
+    .panel__txt{
+        margin-bottom: 0;
+    }
+
+    .panel__img{
+        margin-left: auto;
+    }
+
+
     .header__list{
         display: none;
     }
@@ -36,40 +59,47 @@
         background: #fff;
     }
 
-    .panel__content{
-        display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    }
 
-    .panel__title{
-        max-width: 500px;
-    }
 
-    .panel__txt{
-        margin-bottom: 0;
-    }
 
-    .panel__img{
-        margin-left: auto;
-    }
-
+}
+/* @media (max-width: 1140px) {} */
+@media (max-width: 1024px) {
+    
+    
    
     .price__cards{
         flex-direction: column;
     row-gap: 30px;
     }
 
-    .panel{
-        flex-direction: column-reverse;
-        margin-top: 100px;
-    }
+    
 
     .footer{
         margin: 0;
         padding: 130px 0;
     }
+
+    .footer__container{
+        align-items: center;
+        row-gap: 30px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .phone{
+        margin: 0;
+    }
+
+    .media{
+        margin: 0;
+    }
+
+    .info__content{
+        row-gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 /* @media (max-width: 992px) {} */
 @media (max-width: 768px) {
@@ -87,27 +117,12 @@
         align-items: center;
     }
 
-    .footer__container{
-        align-items: center;
-        row-gap: 30px;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
 
-    .info__content{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 20px;
-    }
 
-    .phone{
-        margin: 0;
-    }
+    
 
-    .media{
-        margin: 0;
-    }
+   
+   
 }
 /* @media (max-width: 736px) {} */
 /* @media (max-width: 734px) {} */

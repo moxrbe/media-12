@@ -53,7 +53,7 @@ ul{
 
 .nav{
     display: flex;
-    padding: 49px 0;
+    padding: 49px ;
     align-items: center;
     justify-content: space-between;
 }
@@ -69,8 +69,7 @@ ul{
 .header__link{
     color: var(--text);
     margin-right: 41px;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 15px;
     letter-spacing: 0.2px;
     font-weight: 400;
     font-family: var(--font_R);
@@ -416,6 +415,14 @@ ul{
   color: #fff;
   border-radius: 35px;
   margin-bottom: 104px;
+  max-width: 353px;
+  width: 100%;
+  border: none;
+}
+
+.subscribe__form{
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -873,7 +880,8 @@ ul{
 /* footer start */
 
 .footer{
-  margin: 130px 204px;
+  padding: 130px 0;
+
 }
 
 .footer__container{
